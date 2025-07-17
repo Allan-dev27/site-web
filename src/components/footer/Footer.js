@@ -15,7 +15,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a
-            href="https://github.com/AllanVemy27"
+            href="https://github.com/Allan-dev27"
             target="_blank"
             rel="noreferrer"
           >

@@ -122,19 +122,19 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Formation de Développeur Web",
       duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "J'ai découvert un panel de langage de programmation.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "DAVA de Normandie",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "Octobre 2022 à Juin 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "BTS Communication",
+      duration: "Janvier 2023 - Présent",
+      desc: "Durant cette formation, j'ai pu valider mes compétences et valoriser mes expériences dans un livret.",
+      descBullets: ["Valrisation de mes compétences", "Valorisation de mes expériences"]
     }
   ]
 };
@@ -153,7 +153,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programmation",
       progressPercentage: "60%"
     }
   ],
@@ -193,40 +193,36 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Mes Projets",
+  subtitle: "Présentation des mes projets les plus récents et intéressants.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/436354941_334770292967744_2999232595206336180_n.jpg"),
+      projectName: "Norm'Handicap",
+      projectDesc: "Page d'accueil du site internet de l'association Norm'Handicap",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://normhandicap.fr/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lairejoyeux.jpg"),
+      projectName: "L'Aire Joyeux",
+      projectDesc: "Réseaux sociaux de l'association L'Aire Joyeux",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visiter la page Facebook",
+          url: "https://www.facebook.com/lairejoyeux"
         }
       ]
     }
@@ -238,7 +234,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Bootcamp et certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
