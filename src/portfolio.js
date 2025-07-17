@@ -44,12 +44,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Qu'est ce que j'utilise ?",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Je vous présente les technologies que j'utilise pour développer des applications web.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Développement d'applications Front-End"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Développement d'applications Back-End"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -121,7 +121,7 @@ const educationInfo = {
       schoolName: "OpenClassrooms",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Formation de Développeur Web",
-      duration: "September 2017 - April 2019",
+      duration: "2022 - 2023",
       desc: "J'ai découvert un panel de langage de programmation.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -171,24 +171,20 @@ const workExperiences = {
       companylogo: require("./assets/images/436354941_334770292967744_2999232595206336180_n.jpg"),
       date: "June 2020 – Present",
       desc: "Création et mise en place d'un site internet, hébergement du site internet.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Développeur Web",
+      company: "Le Trait d'Union",
+      companylogo: require("./assets/images/letraitdunion.png"),
+      date: "Octobre 2022",
+      desc: "Créer le site internet du café associatif le Trait d'Union."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Chargé de communication & Développeur Web",
+      company: "L'Aire Joyeux",
+      companylogo: require("./assets/images/lairejoyeux.jpg"),
+      date: "Septembre 2022 - Janvier 2024",
+      desc: "Piloter la stratégie de communication et marketing, gérer les réseaux sociaux, réaliser les supports de communication et du site internet."
     }
   ]
 };
