@@ -209,7 +209,7 @@ const bigProjects = {
       projectDesc: "Page d'accueil du site internet de l'association Norm'Handicap",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visiter le site internet",
           url: "https://normhandicap.fr/"
         }
         //  you can add extra buttons here.
@@ -225,7 +225,19 @@ const bigProjects = {
           url: "https://www.facebook.com/lairejoyeux"
         }
       ]
+    },
+    {
+      image: require("./assets/images/letraitdunion.png"),
+      projectName: "Le Trait d'Union",
+      projectDesc: "Site internet de l'association Le Trait d'Union",
+      footerLink: [
+        {
+          name: "Visiter le site internet",
+          url: "https://letraitdunionbernay.fr/"
+        }
+      ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -236,14 +248,14 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Bootcamp et certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Présentation de mes réalisations, certifications et formation que j'ai réalisé en autonomie.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Inco Academy",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Bootcamp de 2 mois pour apprendre les bases du développement web et mobile.",
+      image: require("./assets/images/inco_academy_logo.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -261,10 +273,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Udemy",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Formation de Développeur Web Full Stack avec 24 certifications.",
+      image: require("./assets/images/udemy.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -275,9 +287,9 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "#Avenir",
+      subtitle: "Parcours me permettant de découvrir différents métiers et de chosir mon projet professionnel.",
+      image: require("./assets/images/YT_avenir.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
