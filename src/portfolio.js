@@ -49,10 +49,7 @@ const skillsSection = {
     emoji(
       "⚡ Développement d'applications Front-End"
     ),
-    emoji("⚡ Développement d'applications Back-End"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Développement d'applications Back-End")
   ],
 
   softwareSkills: [
@@ -93,16 +90,8 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
