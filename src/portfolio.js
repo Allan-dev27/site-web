@@ -1,6 +1,4 @@
-/* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -8,15 +6,14 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, // 
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
@@ -98,7 +95,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -309,7 +306,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -328,7 +325,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -341,7 +338,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
