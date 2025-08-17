@@ -30,8 +30,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/AllanVemy27",
-  linkedin: "https://www.linkedin.com/in/allan-vmy/",
+  github: "https://github.com/AllanVemy27", 
+  linkedin: "https://www.linkedin.com/in/allan-vmy/", 
   gmail: "vemyallan8@gmail.com",
   facebook: "https://www.facebook.com/AllanVemy27",
   display: true 
